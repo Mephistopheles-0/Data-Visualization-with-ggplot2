@@ -1,0 +1,17 @@
+"0","ggplot(mpg, aes(x = displ, y = hwy, shape = cty)) +"
+"0",""
+"0","  geom_point()"
+"1","[1m[33mError[39m in [38;5;246m`scale_f()`[39m:[22m
+[33m![39m A continuous variable can not be mapped to shape
+Backtrace:
+[90m  1. [39m[1mbase[22m (local) `<fn>`(x)
+[90m  2. [39mggplot2:::print.ggplot(x)
+[90m  4. [39mggplot2:::ggplot_build.ggplot(x)
+[90m  5. [39mggplot2 (local) by_layer(function(l, d) l$compute_aesthetics(d, plot))
+[90m  6. [39mggplot2 (local) f(l = layers[[i]], d = data[[i]])
+[90m  7. [39ml$compute_aesthetics(d, plot)
+[90m  8. [39mggplot2 (local) f(..., self = self)
+[90m  9. [39mggplot2:::scales_add_defaults(...)
+[90m 12. [39mggplot2:::find_scale(aes, datacols[[aes]], env)
+[90m 13. [39mggplot2 (local) [38;5;246m[1m[94mscale_f([38;5;246m[22m[39m[38;5;246m[1m[94m)[38;5;246m[22m[39m
+"

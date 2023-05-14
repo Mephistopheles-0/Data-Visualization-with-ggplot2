@@ -1,0 +1,5 @@
+"0","ggplot(mpg, aes(x = factor(1), fill = drv)) +"
+"0",""
+"0","  geom_bar(width = 1) +"
+"0",""
+"0","  coord_polar()"

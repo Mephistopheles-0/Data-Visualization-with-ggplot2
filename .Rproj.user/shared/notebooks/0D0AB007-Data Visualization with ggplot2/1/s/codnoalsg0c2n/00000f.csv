@@ -1,0 +1,7 @@
+"0","p <- ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) +"
+"0",""
+"0","  geom_point() +"
+"0",""
+"0","  geom_abline()"
+"0",""
+"0","p + coord_fixed()"

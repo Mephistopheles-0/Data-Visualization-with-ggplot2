@@ -1,0 +1,3 @@
+"0","ggplot(data = diamonds) + "
+"0",""
+"0","  geom_bar(aes(x = cut, y = ..count.. / sum(..count..), fill = color))"

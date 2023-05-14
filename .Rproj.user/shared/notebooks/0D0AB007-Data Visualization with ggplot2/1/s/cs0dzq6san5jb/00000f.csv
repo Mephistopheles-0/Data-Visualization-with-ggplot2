@@ -1,0 +1,5 @@
+"0","ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +"
+"0",""
+"0","  geom_point() +"
+"0",""
+"0","  geom_smooth()"

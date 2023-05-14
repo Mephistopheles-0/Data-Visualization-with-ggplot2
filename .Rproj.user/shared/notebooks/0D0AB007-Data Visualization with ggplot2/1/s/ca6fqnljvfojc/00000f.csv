@@ -1,0 +1,3 @@
+"0","ggplot(data = diamonds) +"
+"0",""
+"0","  geom_bar(mapping = aes(x = cut, fill = color, y = ..prop..))"

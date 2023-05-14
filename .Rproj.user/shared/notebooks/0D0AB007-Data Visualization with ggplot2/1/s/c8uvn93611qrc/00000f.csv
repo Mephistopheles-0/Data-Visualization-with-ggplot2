@@ -1,0 +1,3 @@
+"0","ggplot(data = mpg) +"
+"0",""
+"0","  geom_smooth(mapping = aes(x = displ, y = hwy, colour = drv))"

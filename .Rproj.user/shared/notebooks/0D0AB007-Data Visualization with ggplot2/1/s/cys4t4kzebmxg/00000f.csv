@@ -1,0 +1,5 @@
+"0","ggplot(mpg, aes(x = displ, y = hwy)) +"
+"0",""
+"0","  geom_point(size = 4, color = ""white"") +"
+"0",""
+"0","  geom_point(aes(colour = drv))"
